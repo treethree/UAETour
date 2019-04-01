@@ -1,0 +1,6 @@
+framework module Pods_UAETour {
+  umbrella header "Pods-UAETour-umbrella.h"
+
+  export *
+  module * { export * }
+}

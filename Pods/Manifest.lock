@@ -1,0 +1,33 @@
+PODS:
+  - DLRadioButton (1.4.12)
+  - ProgressHUD (2.60)
+  - SwiftValidator (4.0.0)
+
+DEPENDENCIES:
+  - DLRadioButton
+  - ProgressHUD (~> 2.60)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, tag `4.2.0`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DLRadioButton
+    - ProgressHUD
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.2.0
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.2.0
+
+SPEC CHECKSUMS:
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  SwiftValidator: 58c155c8ae8421ef716a96e52a49984dd54c700c
+
+PODFILE CHECKSUM: 2be5b0a0218094d165b87c54e09da69d9454a318
+
+COCOAPODS: 1.6.1

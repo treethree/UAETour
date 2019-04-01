@@ -1,0 +1,1097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0041845B73844A58243CF26AB9DC5660 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD604435D090CAC30BD698D219D06F0 /* ValidationError.swift */; };
+		0A840CC7AA59F1D503E236C2AEE540E2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F51C709D5B076EF36F6908C7F1F262 /* ProgressHUD.m */; };
+		0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8C1A8B90F331FDE81DF416B5F37E4E /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181A1E839F77EB64264DBB6FA5A74EA0 /* SwiftValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F10F9F476840433AA194A8A69FF3848C /* SwiftValidator-dummy.m */; };
+		1EC39D5C82A32212F86255383A66AE83 /* ProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BBAB8426A4800437F11AD519724410 /* ProgressHUD-dummy.m */; };
+		2240D48CDBF018FE8F931B60FFC8748B /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C908867BABFA7D4657EFD90C1A4FC95 /* ProgressHUD.bundle */; };
+		48086D3B2A1C9584472F9639D0EF43DB /* FloatRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FE7BF4EC020024A8B31D1C7B3699C /* FloatRule.swift */; };
+		483F2AC4687936325C9A6CCE2F3A7F36 /* SwiftValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B398EA5194789316EA93EB457A51678E /* SwiftValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3A23D490CB3372B63B794791E5C16A /* AlphaNumericRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9BE62CCB6CD12DE97F4FC41178FBB /* AlphaNumericRule.swift */; };
+		53528062BE88A9D5C4EA3215FB3F6FA3 /* ZipCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499A5E96C977C85CDAAD9BE0CAD90FDC /* ZipCodeRule.swift */; };
+		53F92F58700A289E838A540F3FCF8AC2 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831320537D2B4802B87180376E99DD7 /* ValidationRule.swift */; };
+		55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A1DC6DC4C98DCFA711007CCBB394B7 /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5844AA4294CE03E673BD81D752DB1458 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BA2196419E65300894D0E1418C4CA /* PhoneNumberRule.swift */; };
+		5CF5107CF06211859CCECE1E6D36070B /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590167A2F3EB63C2B2D8269A5242E70 /* ConfirmRule.swift */; };
+		6194BC31F5FF961D6E09D15B95F09A3A /* Pods-UAETour-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D613D18D4B3FF6780E4BCD81AB260A /* Pods-UAETour-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7257E10F8D5347D4B9B074D3FD6F10D1 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6154DE0CE73F5834489F7C1D95B5CF /* Validatable.swift */; };
+		77DBDA12EA0925013816494B2C7E79AB /* ProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B7BD45EA7C4145447BE6BDA4F7CB2F /* ProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790DCAF23A59722D93D890DEBA7929E9 /* CardExpiryYearRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E21BD4D3074B1BE813BFB1816A93434 /* CardExpiryYearRule.swift */; };
+		7B36ECEE3044D256AF1DB0BCA562063A /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E964FE0DC739425D5AE04F03351FA36B /* ProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E26932778CEF3F9420BDA6645508EA5 /* EmailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442D9102E567F75E7E05DAC3400DBA5 /* EmailRule.swift */; };
+		837EDCF8C8DB35B0D63FD9AF35F48482 /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F20AE8EBDFCA3B47589645324A4A4C6 /* MaxLengthRule.swift */; };
+		8854647BEDD8F5DECB5D3057C5D2182A /* HexColorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C9B6DDBA7A8FAD8216F7A4C72DECB /* HexColorRule.swift */; };
+		885B51156714410119412595C59CC7EC /* CharacterSetRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7777FBDADBCE3ED026177241B3381C29 /* CharacterSetRule.swift */; };
+		91A23BA94BBFE10519474D37E3030ACA /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424DD0370AB1A71A965C7EA580701636 /* Validator.swift */; };
+		96321C7796A82B94373F087852E0A5E1 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6ADD8FA6D820A7087E2EB1218584BB /* Rule.swift */; };
+		974FCB797A9CCAE7B52AE7594CEC2931 /* ValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A83BC9A69F46172B9957ABF3F4B94D /* ValidationDelegate.swift */; };
+		992AD0A0BBF1C180D2C9366C98305C84 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD472496448632E1DE49668372FFB376 /* RegexRule.swift */; };
+		9A1873DF545BF8588D2E84DB731D7470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		9D54E311708BCA58AB15F8328C1690A1 /* Pods-UAETour-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32282BE1A640582FA63228B00DFAB416 /* Pods-UAETour-dummy.m */; };
+		A0605B4C9A601CACA2374BB981385EED /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283F11ECF7091364138A3D901E93D817 /* PasswordRule.swift */; };
+		B475F795023EB7F789E36753EAC5A393 /* RequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB675010DD92D1BCF0D3686E87846F /* RequiredRule.swift */; };
+		B95985779AA57D5CB7EDDD508011AB40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A75373E238691BF3A2F8FF69996718E /* DLRadioButton.m */; };
+		CE960AC8DAA9F2D03B1E79B51E86F7F1 /* IPV4Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA9275E188E70FEA38A3C57ACCE3D2 /* IPV4Rule.swift */; };
+		D2B55B2776EB3F40B067825CBFDEE67A /* AlphaRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502AE6EEF383F55D4F45AB73305F8577 /* AlphaRule.swift */; };
+		D61995721D2671E898766C5FBFAF260B /* ISBNRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E188D3FCAB8497BE12430DC6D09253 /* ISBNRule.swift */; };
+		D87D93A96B915A4BD6440610DBD11984 /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F517DF6EFD7B15FA4807814F3DA2BA1A /* MinLengthRule.swift */; };
+		E20351C36ABA648508350DF4A34E3E60 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C5C00483B2105B22C18AFAF1659D4 /* ValidatorDictionary.swift */; };
+		E274AD58903EC1747DD90FC12BAF853F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		E5190B363831C290537E80F9BE2A884A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		E5AE9E66342A8C7C31323F3C5E0F6457 /* CardExpiryMonthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9808F936F3EC894C29D87970E3750F40 /* CardExpiryMonthRule.swift */; };
+		E72D1E413977427EE7FEC8A33593BC66 /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC463925943D9808D7C9184551C6053 /* ExactLengthRule.swift */; };
+		E89F78F7DBEC6CF54AF27D07A27916E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AA8C0616D8EBC0B8C78316E1EBC1 /* DLRadioButton-dummy.m */; };
+		FF3A969B7454B003363B2BAD6CE99397 /* FullNameRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9265F682B02A4C1C5196CE700033E9 /* FullNameRule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2531FFD963D3F5F47270EEFE411A5EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BD0675E3AE6FB8C284CB79F1013052;
+			remoteInfo = DLRadioButton;
+		};
+		7F85E682ECD341107285288B3F861027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 296172B058EBF865BF781A9BC2D1F7D4;
+			remoteInfo = SwiftValidator;
+		};
+		9FA99AFCEB538F634F3C9F16061BA42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5395412FBFAC08F3DFE92347675E6D4D;
+			remoteInfo = ProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072AC47656A2BEF6318179B2F1AF7A59 /* ProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressHUD.modulemap; sourceTree = "<group>"; };
+		0C0BF7E4AF21643944F1FB32E4E8170C /* SwiftValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftValidator-Info.plist"; sourceTree = "<group>"; };
+		141C9B6DDBA7A8FAD8216F7A4C72DECB /* HexColorRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorRule.swift; path = SwiftValidator/Rules/HexColorRule.swift; sourceTree = "<group>"; };
+		14BB675010DD92D1BCF0D3686E87846F /* RequiredRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequiredRule.swift; path = SwiftValidator/Rules/RequiredRule.swift; sourceTree = "<group>"; };
+		253B4507361272F6A9688A47301CEC00 /* Pods_UAETour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UAETour.framework; path = "Pods-UAETour.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BBAB8426A4800437F11AD519724410 /* ProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		26A83BC9A69F46172B9957ABF3F4B94D /* ValidationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationDelegate.swift; path = SwiftValidator/Core/ValidationDelegate.swift; sourceTree = "<group>"; };
+		2831320537D2B4802B87180376E99DD7 /* ValidationRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationRule.swift; path = SwiftValidator/Rules/ValidationRule.swift; sourceTree = "<group>"; };
+		283F11ECF7091364138A3D901E93D817 /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = SwiftValidator/Rules/PasswordRule.swift; sourceTree = "<group>"; };
+		2C08264E1224C961D9FC22CC86929829 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC463925943D9808D7C9184551C6053 /* ExactLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExactLengthRule.swift; path = SwiftValidator/Rules/ExactLengthRule.swift; sourceTree = "<group>"; };
+		30F51C709D5B076EF36F6908C7F1F262 /* ProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ProgressHUD/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
+		32282BE1A640582FA63228B00DFAB416 /* Pods-UAETour-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UAETour-dummy.m"; sourceTree = "<group>"; };
+		33D613D18D4B3FF6780E4BCD81AB260A /* Pods-UAETour-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UAETour-umbrella.h"; sourceTree = "<group>"; };
+		3893A08EF967D8AA16DA4B64E7E490C4 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		3C3E50F9D11470A323839B4BE2932FB7 /* SwiftValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftValidator.framework; path = SwiftValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		424DD0370AB1A71A965C7EA580701636 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = SwiftValidator/Core/Validator.swift; sourceTree = "<group>"; };
+		4442D9102E567F75E7E05DAC3400DBA5 /* EmailRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailRule.swift; path = SwiftValidator/Rules/EmailRule.swift; sourceTree = "<group>"; };
+		44D09109D280E41CBC06C502F803FF91 /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		499A5E96C977C85CDAAD9BE0CAD90FDC /* ZipCodeRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZipCodeRule.swift; path = SwiftValidator/Rules/ZipCodeRule.swift; sourceTree = "<group>"; };
+		4C908867BABFA7D4657EFD90C1A4FC95 /* ProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ProgressHUD/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
+		4F9BA2196419E65300894D0E1418C4CA /* PhoneNumberRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberRule.swift; path = SwiftValidator/Rules/PhoneNumberRule.swift; sourceTree = "<group>"; };
+		502AE6EEF383F55D4F45AB73305F8577 /* AlphaRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaRule.swift; path = SwiftValidator/Rules/AlphaRule.swift; sourceTree = "<group>"; };
+		5590167A2F3EB63C2B2D8269A5242E70 /* ConfirmRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmRule.swift; path = SwiftValidator/Rules/ConfirmRule.swift; sourceTree = "<group>"; };
+		58C9BE62CCB6CD12DE97F4FC41178FBB /* AlphaNumericRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaNumericRule.swift; path = SwiftValidator/Rules/AlphaNumericRule.swift; sourceTree = "<group>"; };
+		5A9265F682B02A4C1C5196CE700033E9 /* FullNameRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullNameRule.swift; path = SwiftValidator/Rules/FullNameRule.swift; sourceTree = "<group>"; };
+		6A75373E238691BF3A2F8FF69996718E /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		6A9B3291025D4306DDC86CE4AF4F9132 /* Pods-UAETour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UAETour.debug.xcconfig"; sourceTree = "<group>"; };
+		6E22AE4BCB1095DFA5054F2C0490C0D6 /* Pods-UAETour-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UAETour-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E6ADD8FA6D820A7087E2EB1218584BB /* Rule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rule.swift; path = SwiftValidator/Rules/Rule.swift; sourceTree = "<group>"; };
+		75216D75147822C408A30ADC90ACA991 /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressHUD.framework; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7777FBDADBCE3ED026177241B3381C29 /* CharacterSetRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterSetRule.swift; path = SwiftValidator/Rules/CharacterSetRule.swift; sourceTree = "<group>"; };
+		78F3AA8C0616D8EBC0B8C78316E1EBC1 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		7F20AE8EBDFCA3B47589645324A4A4C6 /* MaxLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaxLengthRule.swift; path = SwiftValidator/Rules/MaxLengthRule.swift; sourceTree = "<group>"; };
+		88B7BD45EA7C4145447BE6BDA4F7CB2F /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8A582ADB350FD575B459BDD8BCB0E71C /* SwiftValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftValidator.xcconfig; sourceTree = "<group>"; };
+		8E21BD4D3074B1BE813BFB1816A93434 /* CardExpiryYearRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpiryYearRule.swift; path = SwiftValidator/Rules/CardExpiryYearRule.swift; sourceTree = "<group>"; };
+		934A5CB97942110E4D9FBAC8CDA72D0E /* ProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.xcconfig; sourceTree = "<group>"; };
+		9808F936F3EC894C29D87970E3750F40 /* CardExpiryMonthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpiryMonthRule.swift; path = SwiftValidator/Rules/CardExpiryMonthRule.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E42ABA56256288D586CE49CA72370D /* Pods-UAETour.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UAETour.modulemap"; sourceTree = "<group>"; };
+		A6EA5CF10AF58A41D736E09F2B47EAF4 /* Pods-UAETour-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UAETour-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE2D6A7320410AC7A1D5464EC40D7922 /* DLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		B20F248A3012D7CB6D08A59F9DF95C62 /* Pods-UAETour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UAETour.release.xcconfig"; sourceTree = "<group>"; };
+		B398EA5194789316EA93EB457A51678E /* SwiftValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftValidator-umbrella.h"; sourceTree = "<group>"; };
+		B7B0610E1547DE9B4CD1B83442FD5C26 /* Pods-UAETour-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UAETour-Info.plist"; sourceTree = "<group>"; };
+		BF8FE7BF4EC020024A8B31D1C7B3699C /* FloatRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatRule.swift; path = SwiftValidator/Rules/FloatRule.swift; sourceTree = "<group>"; };
+		C9E0CA80DD7BE38A35AE85BD267538C7 /* SwiftValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftValidator-prefix.pch"; sourceTree = "<group>"; };
+		CBD604435D090CAC30BD698D219D06F0 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = SwiftValidator/Core/ValidationError.swift; sourceTree = "<group>"; };
+		D1A1DC6DC4C98DCFA711007CCBB394B7 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		D1E188D3FCAB8497BE12430DC6D09253 /* ISBNRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISBNRule.swift; path = SwiftValidator/Rules/ISBNRule.swift; sourceTree = "<group>"; };
+		D25C5C00483B2105B22C18AFAF1659D4 /* ValidatorDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatorDictionary.swift; path = SwiftValidator/Core/ValidatorDictionary.swift; sourceTree = "<group>"; };
+		D627980F28F30DA2F71AED87870324DE /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		DCEA9275E188E70FEA38A3C57ACCE3D2 /* IPV4Rule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPV4Rule.swift; path = SwiftValidator/Rules/IPV4Rule.swift; sourceTree = "<group>"; };
+		DF6154DE0CE73F5834489F7C1D95B5CF /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = SwiftValidator/Core/Validatable.swift; sourceTree = "<group>"; };
+		E4A287F0169D843407FC829C5F11A331 /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E964FE0DC739425D5AE04F03351FA36B /* ProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ProgressHUD/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
+		EC68EA19CD5FC1EAA24BA3CC2E5EC5DD /* SwiftValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftValidator.modulemap; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EDB0E00160A049E6EB12274D4FE9A092 /* ProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		EE8C1A8B90F331FDE81DF416B5F37E4E /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		F10F9F476840433AA194A8A69FF3848C /* SwiftValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftValidator-dummy.m"; sourceTree = "<group>"; };
+		F517DF6EFD7B15FA4807814F3DA2BA1A /* MinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinLengthRule.swift; path = SwiftValidator/Rules/MinLengthRule.swift; sourceTree = "<group>"; };
+		F74E268B9011A6FEB61AEF8384F8DD20 /* Pods-UAETour-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UAETour-frameworks.sh"; sourceTree = "<group>"; };
+		FD472496448632E1DE49668372FFB376 /* RegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexRule.swift; path = SwiftValidator/Rules/RegexRule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F652CC3B5E3E5CB9B7614A61FA26AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89F78F7DBEC6CF54AF27D07A27916E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975E4C542CFF86B958D2C83F2AF6FC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5190B363831C290537E80F9BE2A884A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7EDA3DBAD99A2811E195EDDFEE413E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1873DF545BF8588D2E84DB731D7470 /* Foundation.framework in Frameworks */,
+				B95985779AA57D5CB7EDDD508011AB40 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2F34A0FDDA1819A4F4245A462D4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E274AD58903EC1747DD90FC12BAF853F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24847A696AA8B93640487F2AEEC5BE7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D368993ED3061E08688DE13552E16D /* Pods-UAETour */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D35468CC2F7C461D4259DB73DC947E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC68EA19CD5FC1EAA24BA3CC2E5EC5DD /* SwiftValidator.modulemap */,
+				8A582ADB350FD575B459BDD8BCB0E71C /* SwiftValidator.xcconfig */,
+				F10F9F476840433AA194A8A69FF3848C /* SwiftValidator-dummy.m */,
+				0C0BF7E4AF21643944F1FB32E4E8170C /* SwiftValidator-Info.plist */,
+				C9E0CA80DD7BE38A35AE85BD267538C7 /* SwiftValidator-prefix.pch */,
+				B398EA5194789316EA93EB457A51678E /* SwiftValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftValidator";
+			sourceTree = "<group>";
+		};
+		2D5C573E41E91E8CFB330ADCFE18581C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C908867BABFA7D4657EFD90C1A4FC95 /* ProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3586C858B4B52DB8E2B10A9E4023F80D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44D09109D280E41CBC06C502F803FF91 /* DLRadioButton.modulemap */,
+				D627980F28F30DA2F71AED87870324DE /* DLRadioButton.xcconfig */,
+				78F3AA8C0616D8EBC0B8C78316E1EBC1 /* DLRadioButton-dummy.m */,
+				AE2D6A7320410AC7A1D5464EC40D7922 /* DLRadioButton-Info.plist */,
+				3893A08EF967D8AA16DA4B64E7E490C4 /* DLRadioButton-prefix.pch */,
+				D1A1DC6DC4C98DCFA711007CCBB394B7 /* DLRadioButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+		480AC9840A7579E714757B3F033FC930 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E964FE0DC739425D5AE04F03351FA36B /* ProgressHUD.h */,
+				30F51C709D5B076EF36F6908C7F1F262 /* ProgressHUD.m */,
+				2D5C573E41E91E8CFB330ADCFE18581C /* Resources */,
+				B12012E4382E74E225339CD97274676A /* Support Files */,
+			);
+			name = ProgressHUD;
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		60D368993ED3061E08688DE13552E16D /* Pods-UAETour */ = {
+			isa = PBXGroup;
+			children = (
+				A5E42ABA56256288D586CE49CA72370D /* Pods-UAETour.modulemap */,
+				6E22AE4BCB1095DFA5054F2C0490C0D6 /* Pods-UAETour-acknowledgements.markdown */,
+				A6EA5CF10AF58A41D736E09F2B47EAF4 /* Pods-UAETour-acknowledgements.plist */,
+				32282BE1A640582FA63228B00DFAB416 /* Pods-UAETour-dummy.m */,
+				F74E268B9011A6FEB61AEF8384F8DD20 /* Pods-UAETour-frameworks.sh */,
+				B7B0610E1547DE9B4CD1B83442FD5C26 /* Pods-UAETour-Info.plist */,
+				33D613D18D4B3FF6780E4BCD81AB260A /* Pods-UAETour-umbrella.h */,
+				6A9B3291025D4306DDC86CE4AF4F9132 /* Pods-UAETour.debug.xcconfig */,
+				B20F248A3012D7CB6D08A59F9DF95C62 /* Pods-UAETour.release.xcconfig */,
+			);
+			name = "Pods-UAETour";
+			path = "Target Support Files/Pods-UAETour";
+			sourceTree = "<group>";
+		};
+		60EA29018D3404647951ACE70660C0AA /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C1A8B90F331FDE81DF416B5F37E4E /* DLRadioButton.h */,
+				6A75373E238691BF3A2F8FF69996718E /* DLRadioButton.m */,
+				3586C858B4B52DB8E2B10A9E4023F80D /* Support Files */,
+			);
+			name = DLRadioButton;
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		6126701089F9FC3F16C6EB64C2421262 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60EA29018D3404647951ACE70660C0AA /* DLRadioButton */,
+				480AC9840A7579E714757B3F033FC930 /* ProgressHUD */,
+				A74688F757055846A0FA5ED39F94D80E /* SwiftValidator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		906715931D08358CEFA86D3E4AD698F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C08264E1224C961D9FC22CC86929829 /* DLRadioButton.framework */,
+				253B4507361272F6A9688A47301CEC00 /* Pods_UAETour.framework */,
+				75216D75147822C408A30ADC90ACA991 /* ProgressHUD.framework */,
+				3C3E50F9D11470A323839B4BE2932FB7 /* SwiftValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74688F757055846A0FA5ED39F94D80E /* SwiftValidator */ = {
+			isa = PBXGroup;
+			children = (
+				58C9BE62CCB6CD12DE97F4FC41178FBB /* AlphaNumericRule.swift */,
+				502AE6EEF383F55D4F45AB73305F8577 /* AlphaRule.swift */,
+				9808F936F3EC894C29D87970E3750F40 /* CardExpiryMonthRule.swift */,
+				8E21BD4D3074B1BE813BFB1816A93434 /* CardExpiryYearRule.swift */,
+				7777FBDADBCE3ED026177241B3381C29 /* CharacterSetRule.swift */,
+				5590167A2F3EB63C2B2D8269A5242E70 /* ConfirmRule.swift */,
+				4442D9102E567F75E7E05DAC3400DBA5 /* EmailRule.swift */,
+				2DC463925943D9808D7C9184551C6053 /* ExactLengthRule.swift */,
+				BF8FE7BF4EC020024A8B31D1C7B3699C /* FloatRule.swift */,
+				5A9265F682B02A4C1C5196CE700033E9 /* FullNameRule.swift */,
+				141C9B6DDBA7A8FAD8216F7A4C72DECB /* HexColorRule.swift */,
+				DCEA9275E188E70FEA38A3C57ACCE3D2 /* IPV4Rule.swift */,
+				D1E188D3FCAB8497BE12430DC6D09253 /* ISBNRule.swift */,
+				7F20AE8EBDFCA3B47589645324A4A4C6 /* MaxLengthRule.swift */,
+				F517DF6EFD7B15FA4807814F3DA2BA1A /* MinLengthRule.swift */,
+				283F11ECF7091364138A3D901E93D817 /* PasswordRule.swift */,
+				4F9BA2196419E65300894D0E1418C4CA /* PhoneNumberRule.swift */,
+				FD472496448632E1DE49668372FFB376 /* RegexRule.swift */,
+				14BB675010DD92D1BCF0D3686E87846F /* RequiredRule.swift */,
+				6E6ADD8FA6D820A7087E2EB1218584BB /* Rule.swift */,
+				DF6154DE0CE73F5834489F7C1D95B5CF /* Validatable.swift */,
+				26A83BC9A69F46172B9957ABF3F4B94D /* ValidationDelegate.swift */,
+				CBD604435D090CAC30BD698D219D06F0 /* ValidationError.swift */,
+				2831320537D2B4802B87180376E99DD7 /* ValidationRule.swift */,
+				424DD0370AB1A71A965C7EA580701636 /* Validator.swift */,
+				D25C5C00483B2105B22C18AFAF1659D4 /* ValidatorDictionary.swift */,
+				499A5E96C977C85CDAAD9BE0CAD90FDC /* ZipCodeRule.swift */,
+				2D35468CC2F7C461D4259DB73DC947E2 /* Support Files */,
+			);
+			name = SwiftValidator;
+			path = SwiftValidator;
+			sourceTree = "<group>";
+		};
+		B12012E4382E74E225339CD97274676A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				072AC47656A2BEF6318179B2F1AF7A59 /* ProgressHUD.modulemap */,
+				934A5CB97942110E4D9FBAC8CDA72D0E /* ProgressHUD.xcconfig */,
+				25BBAB8426A4800437F11AD519724410 /* ProgressHUD-dummy.m */,
+				EDB0E00160A049E6EB12274D4FE9A092 /* ProgressHUD-Info.plist */,
+				E4A287F0169D843407FC829C5F11A331 /* ProgressHUD-prefix.pch */,
+				88B7BD45EA7C4145447BE6BDA4F7CB2F /* ProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ProgressHUD";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6126701089F9FC3F16C6EB64C2421262 /* Pods */,
+				906715931D08358CEFA86D3E4AD698F6 /* Products */,
+				24847A696AA8B93640487F2AEEC5BE7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1810A26762F03493587414187A75812A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6194BC31F5FF961D6E09D15B95F09A3A /* Pods-UAETour-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E255672EE9B91110C4126FAF74CD4C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DBDA12EA0925013816494B2C7E79AB /* ProgressHUD-umbrella.h in Headers */,
+				7B36ECEE3044D256AF1DB0BCA562063A /* ProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B07AA8E9B17041274718AE94C34D83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B2CCDC53F0969011D2BA234E56B7E9 /* DLRadioButton-umbrella.h in Headers */,
+				0DDDE4B88D870D6225BAB7EECD72B490 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CA007A513AC9574C7AFF6B8138C8F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F2AC4687936325C9A6CCE2F3A7F36 /* SwiftValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		296172B058EBF865BF781A9BC2D1F7D4 /* SwiftValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814E3368ED751F0AC2890BB1EE01142F /* Build configuration list for PBXNativeTarget "SwiftValidator" */;
+			buildPhases = (
+				E9CA007A513AC9574C7AFF6B8138C8F5 /* Headers */,
+				10FB62758AAC6B01A56CD4CDD914E191 /* Sources */,
+				AB7EDA3DBAD99A2811E195EDDFEE413E /* Frameworks */,
+				A861ACBAC29E7763BD80F73F5AC4DD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftValidator;
+			productName = SwiftValidator;
+			productReference = 3C3E50F9D11470A323839B4BE2932FB7 /* SwiftValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECCCD994A7BA390D8D0E83D7A01751D /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				8B07AA8E9B17041274718AE94C34D83D /* Headers */,
+				91AFD37EEF3A1EE2D30A7AF1ACE017ED /* Sources */,
+				ABD2F34A0FDDA1819A4F4245A462D4E6 /* Frameworks */,
+				21DB0C0CA3815E9F41D21BAA21744854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 2C08264E1224C961D9FC22CC86929829 /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F0B3F189F6C7617008F037CBB0D619A /* Pods-UAETour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00D040466A968C13DD79F315EE50864 /* Build configuration list for PBXNativeTarget "Pods-UAETour" */;
+			buildPhases = (
+				1810A26762F03493587414187A75812A /* Headers */,
+				E850246C3D82F98C9D25C2F4C9E5B6CA /* Sources */,
+				47F652CC3B5E3E5CB9B7614A61FA26AF /* Frameworks */,
+				963EED5C88FFFEF96689FBA2ACBC453E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB0C4E43AD4810464FE544D496FA594 /* PBXTargetDependency */,
+				00B1B4BEEA210660680D662CB6CE1D64 /* PBXTargetDependency */,
+				86A74D592A952F701AE9D110551559C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-UAETour";
+			productName = "Pods-UAETour";
+			productReference = 253B4507361272F6A9688A47301CEC00 /* Pods_UAETour.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5395412FBFAC08F3DFE92347675E6D4D /* ProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56857B48D8E9C15939A71CD210A96262 /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildPhases = (
+				1E255672EE9B91110C4126FAF74CD4C6 /* Headers */,
+				C549D85BE97BCA0585D67C75F64F4FEB /* Sources */,
+				975E4C542CFF86B958D2C83F2AF6FC60 /* Frameworks */,
+				2CD980406753F411E414F5B9DE2905BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressHUD;
+			productName = ProgressHUD;
+			productReference = 75216D75147822C408A30ADC90ACA991 /* ProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 906715931D08358CEFA86D3E4AD698F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */,
+				4F0B3F189F6C7617008F037CBB0D619A /* Pods-UAETour */,
+				5395412FBFAC08F3DFE92347675E6D4D /* ProgressHUD */,
+				296172B058EBF865BF781A9BC2D1F7D4 /* SwiftValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21DB0C0CA3815E9F41D21BAA21744854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD980406753F411E414F5B9DE2905BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2240D48CDBF018FE8F931B60FFC8748B /* ProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963EED5C88FFFEF96689FBA2ACBC453E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A861ACBAC29E7763BD80F73F5AC4DD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FB62758AAC6B01A56CD4CDD914E191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3A23D490CB3372B63B794791E5C16A /* AlphaNumericRule.swift in Sources */,
+				D2B55B2776EB3F40B067825CBFDEE67A /* AlphaRule.swift in Sources */,
+				E5AE9E66342A8C7C31323F3C5E0F6457 /* CardExpiryMonthRule.swift in Sources */,
+				790DCAF23A59722D93D890DEBA7929E9 /* CardExpiryYearRule.swift in Sources */,
+				885B51156714410119412595C59CC7EC /* CharacterSetRule.swift in Sources */,
+				5CF5107CF06211859CCECE1E6D36070B /* ConfirmRule.swift in Sources */,
+				7E26932778CEF3F9420BDA6645508EA5 /* EmailRule.swift in Sources */,
+				E72D1E413977427EE7FEC8A33593BC66 /* ExactLengthRule.swift in Sources */,
+				48086D3B2A1C9584472F9639D0EF43DB /* FloatRule.swift in Sources */,
+				FF3A969B7454B003363B2BAD6CE99397 /* FullNameRule.swift in Sources */,
+				8854647BEDD8F5DECB5D3057C5D2182A /* HexColorRule.swift in Sources */,
+				CE960AC8DAA9F2D03B1E79B51E86F7F1 /* IPV4Rule.swift in Sources */,
+				D61995721D2671E898766C5FBFAF260B /* ISBNRule.swift in Sources */,
+				837EDCF8C8DB35B0D63FD9AF35F48482 /* MaxLengthRule.swift in Sources */,
+				D87D93A96B915A4BD6440610DBD11984 /* MinLengthRule.swift in Sources */,
+				A0605B4C9A601CACA2374BB981385EED /* PasswordRule.swift in Sources */,
+				5844AA4294CE03E673BD81D752DB1458 /* PhoneNumberRule.swift in Sources */,
+				992AD0A0BBF1C180D2C9366C98305C84 /* RegexRule.swift in Sources */,
+				B475F795023EB7F789E36753EAC5A393 /* RequiredRule.swift in Sources */,
+				96321C7796A82B94373F087852E0A5E1 /* Rule.swift in Sources */,
+				181A1E839F77EB64264DBB6FA5A74EA0 /* SwiftValidator-dummy.m in Sources */,
+				7257E10F8D5347D4B9B074D3FD6F10D1 /* Validatable.swift in Sources */,
+				974FCB797A9CCAE7B52AE7594CEC2931 /* ValidationDelegate.swift in Sources */,
+				0041845B73844A58243CF26AB9DC5660 /* ValidationError.swift in Sources */,
+				53F92F58700A289E838A540F3FCF8AC2 /* ValidationRule.swift in Sources */,
+				91A23BA94BBFE10519474D37E3030ACA /* Validator.swift in Sources */,
+				E20351C36ABA648508350DF4A34E3E60 /* ValidatorDictionary.swift in Sources */,
+				53528062BE88A9D5C4EA3215FB3F6FA3 /* ZipCodeRule.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AFD37EEF3A1EE2D30A7AF1ACE017ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED928FEC82C7BF9E9EFC1CECE84E897 /* DLRadioButton-dummy.m in Sources */,
+				BDBCFC743FB9943826F18A175C83DF08 /* DLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C549D85BE97BCA0585D67C75F64F4FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC39D5C82A32212F86255383A66AE83 /* ProgressHUD-dummy.m in Sources */,
+				0A840CC7AA59F1D503E236C2AEE540E2 /* ProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E850246C3D82F98C9D25C2F4C9E5B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D54E311708BCA58AB15F8328C1690A1 /* Pods-UAETour-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B1B4BEEA210660680D662CB6CE1D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressHUD;
+			target = 5395412FBFAC08F3DFE92347675E6D4D /* ProgressHUD */;
+			targetProxy = 9FA99AFCEB538F634F3C9F16061BA42C /* PBXContainerItemProxy */;
+		};
+		86A74D592A952F701AE9D110551559C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftValidator;
+			target = 296172B058EBF865BF781A9BC2D1F7D4 /* SwiftValidator */;
+			targetProxy = 7F85E682ECD341107285288B3F861027 /* PBXContainerItemProxy */;
+		};
+		ABB0C4E43AD4810464FE544D496FA594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = 46BD0675E3AE6FB8C284CB79F1013052 /* DLRadioButton */;
+			targetProxy = 2531FFD963D3F5F47270EEFE411A5EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26C39F871FFE43198EC27B9688B8AC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D627980F28F30DA2F71AED87870324DE /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3119002ACB1C2F0657D48FF23B6B94FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A582ADB350FD575B459BDD8BCB0E71C /* SwiftValidator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftValidator/SwiftValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftValidator/SwiftValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftValidator/SwiftValidator.modulemap";
+				PRODUCT_MODULE_NAME = SwiftValidator;
+				PRODUCT_NAME = SwiftValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50D18365C9C05CEF032F6D43B26F2086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20F248A3012D7CB6D08A59F9DF95C62 /* Pods-UAETour.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UAETour/Pods-UAETour-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UAETour/Pods-UAETour.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE156CFFF0E1CA2521BADACC1B06C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A582ADB350FD575B459BDD8BCB0E71C /* SwiftValidator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftValidator/SwiftValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftValidator/SwiftValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftValidator/SwiftValidator.modulemap";
+				PRODUCT_MODULE_NAME = SwiftValidator;
+				PRODUCT_NAME = SwiftValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D60DB4A6A4F1FEA7282A0D0EBEE9CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934A5CB97942110E4D9FBAC8CDA72D0E /* ProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF20A762918CF99007B5589DF47BE326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9B3291025D4306DDC86CE4AF4F9132 /* Pods-UAETour.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UAETour/Pods-UAETour-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UAETour/Pods-UAETour.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1EA458E1A3BF5FC91F4F7A1FB08F996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D627980F28F30DA2F71AED87870324DE /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/DLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA54E2FCB40284110230B0C6D2355B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934A5CB97942110E4D9FBAC8CDA72D0E /* ProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ECCCD994A7BA390D8D0E83D7A01751D /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C39F871FFE43198EC27B9688B8AC65 /* Debug */,
+				D1EA458E1A3BF5FC91F4F7A1FB08F996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56857B48D8E9C15939A71CD210A96262 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D60DB4A6A4F1FEA7282A0D0EBEE9CB3 /* Debug */,
+				EA54E2FCB40284110230B0C6D2355B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814E3368ED751F0AC2890BB1EE01142F /* Build configuration list for PBXNativeTarget "SwiftValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE156CFFF0E1CA2521BADACC1B06C83 /* Debug */,
+				3119002ACB1C2F0657D48FF23B6B94FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00D040466A968C13DD79F315EE50864 /* Build configuration list for PBXNativeTarget "Pods-UAETour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF20A762918CF99007B5589DF47BE326 /* Debug */,
+				50D18365C9C05CEF032F6D43B26F2086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
